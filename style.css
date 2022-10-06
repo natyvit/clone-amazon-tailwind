@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.livros-select{
+  @apply hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500;
+}
+
+.item-nav-superior{
+  @apply hidden md:block ml-1 pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2;
+}
+
+.item-nav-mid{
+  @apply mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1;
+}
+
+.item-nav-inf{
+  @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+}
+
+.address-container{
+  @apply flex items-center border border-transparent hover:border-white rounded-sm px-2 py-2 md:py-0;
+}
+
+.carrinho-container{
+  @apply p-2 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:mt-0 md:relative order-1 md:order-none md:flex;
+}
+
+.quantidade-carrinho{
+  @apply font-bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h-6 bg-darkblue-600 rounded-full;
+}
