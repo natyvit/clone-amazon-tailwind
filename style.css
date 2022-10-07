@@ -29,3 +29,7 @@
 .quantidade-carrinho{
   @apply font-bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h-6 bg-darkblue-600 rounded-full;
 }
+
+.categorias-list-header{
+  @apply text-blue-600 underline hover:text-orange-650 px-1 border-r border-black;
+}
