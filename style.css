@@ -18,6 +18,14 @@
   @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
 }
 
+.item-footer-inter{
+  @apply px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline;
+}
+
+.item-footer-inf{
+  @apply hidden md:block mb-10 text-gray-600;
+}
+
 .address-container{
   @apply flex items-center border border-transparent hover:border-white rounded-sm px-2 py-2 md:py-0;
 }
